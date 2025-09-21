@@ -2,11 +2,13 @@
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #8b2e7a;
+    --color-button-hover: #8a168b;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
+
+
 
 /* Estilos generales */
 * {
@@ -17,7 +19,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background: linear-gradient(0.35turn, #01136f, #369dc9, #1d235b, #30033e);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,14 +44,15 @@ body {
 /* Sección de entrada */
 .input-section {
     flex: 60%;
-    background-color: var(--color-secondary);
-    border: 1px solid #000;
-    border-radius: 64px 64px 0 0;
+    background-color:#90a4e2;
+    border: 2px solid #000000;
+    border-radius: 64px 64px 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     width: 100%;
+    max-height: 395px;
 }
 
 /* Títulos */
@@ -58,14 +61,14 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color:#130f28;
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color:#08134b;
     margin: 10px 0;
     text-align: center;
 }
@@ -136,7 +139,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #ff9d00;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -148,6 +151,7 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
+    margin-bottom: 125px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
